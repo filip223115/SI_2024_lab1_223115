@@ -1,0 +1,41 @@
+commit 2861f27c8c7ebdc81cf95badbfaf1758bb0c7a6b
+Author: filip223115 <filip.postolov@students.finki.ukim.mk>
+Date:   Sat Apr 13 14:38:03 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit c8788052ebfec373d333c46bd98db3d314a17a1e
+Author: filip223115 <filip.postolov@students.finki.ukim.mk>
+Date:   Sat Apr 13 14:26:24 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 131050b5562afa6f98cbe777fd14124e169cbb4d
+Author: filip223115 <filip.postolov@students.finki.ukim.mk>
+Date:   Sat Apr 13 14:32:52 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit a9bdc708fa2ec7b746760225588b9a0dd30131b7
+Author: filip223115 <filip.postolov@students.finki.ukim.mk>
+Date:   Sat Apr 13 14:22:15 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit d78fd9f04fbb4361d8e651133fa67d2f981e8c70
+Author: filip223115 <filip.postolov@students.finki.ukim.mk>
+Date:   Sat Apr 13 13:54:25 2024 +0200
+
+    Add starter code
+
+commit 8f741cb87f8fe01e0fd56bd05755080a917a43d3
+Author: filip223115 <filip.postolov@students.finki.ukim.mk>
+Date:   Sat Apr 13 13:42:52 2024 +0200
+
+    initial commit
+
+commit 34754e5dcc0bcce84cde09a315b18d9e8ea29efc
+Author: filip223115 <filip.postolov@students.finki.ukim.mk>
+Date:   Sat Apr 13 13:37:45 2024 +0200
+
+    Initial commit.
