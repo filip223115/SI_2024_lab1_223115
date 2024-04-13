@@ -14,7 +14,7 @@
     git add SILab1Main.java SILab1_1.java SILab1_2.java     # odkoga ke go napolnime folderot so 3te files, gi dodavame vo staging area.
     git commit -m "Add starter code"                        # potoa gi dadavame na repozetoriumot
 8
-    git push -u origin main         # go dodavame main branchot do github repozetoriumot
+    git push -u origin master         # go dodavame master branchot do github repozetoriumot
 9
     git branch bug1                 # sozdavame 2 novi branches so ime bug1 i bug2
     git branch bug2
@@ -41,26 +41,26 @@
 18
     git push --all origin           # gi sinhronizirame site granki so -all do github repo
 19
-    git switch main                 # se pomestuvame bo branch main
+    git switch master                 # se pomestuvame bo branch master
 20
-    git merge bug1                  # go spojuvame bug1 vo main bez konflikti
+    git merge bug1                  # go spojuvame bug1 vo master bez konflikti
 21
     git push --all origin           # povtorno pravime sinhronizacija
 22
     git switch bug2
 23
-    git rebase main                 # pravime rebase na bug2 sprema main bez konflikt
+    git rebase master                 # pravime rebase na bug2 sprema master bez konflikt
 24
-    git checkout main
+    git checkout master
 25
-    git merge bug2                  # merge megju main i bug2 (se upotrebi fast forwarding avtomatski sto znaci isto nemase konflikt)
+    git merge bug2                  # merge megju master i bug2 (se upotrebi fast forwarding avtomatski sto znaci isto nemase konflikt)
 26
     git push --all origin           # probuvame da gi sinhronizirame site branches do github repozetoriumot no se pojavuva konflikt so bug2 grankata
 27
     git push --all --force origin   # go resavame problemot so koristenje na --force opcijata
 28
-    # vo main grankata podatocite od log, direkno gi stavame vo nov file logs.txt
-    git checkout main
+    # vo master grankata podatocite od log, direkno gi stavame vo nov file logs.txt
+    git checkout master
     git log > logs.txt
     touch 223115.txt    # kreira nov prazen file 223115.txt
 29
